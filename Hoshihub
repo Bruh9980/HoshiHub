@@ -67,8 +67,8 @@ local function CreateMainWindow()
             RememberJoins = true
         },
     })
-    player = Window:CreateTab("Player", nil)
-    Esp = Window:CreateTab("ESP", nil)
+    player = Window:CreateTab("Player", "user-round")
+    Esp = Window:CreateTab("ESP", "eye")
 end
 
 local function SetupESPTab()
