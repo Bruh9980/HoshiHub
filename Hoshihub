@@ -67,21 +67,21 @@ local SpeedSpoof = {
 local function CreateMainWindow()
     Rayfield:Notify({
         Title = "Hoshi Hub Loaded",
-        Content = "Exploit loaded for "..PlaceName,
+        Content = "Exploit loaded for"..PlaceName,
         Duration = 6.5,
         Image = "bell-ring"
     })
 
     Window = Rayfield:CreateWindow({
-        Name = "Hoshi Hub " .. PlaceName,
-        LoadingTitle = "Hoshi Hub " .. PlaceName,
+        Name = "Hoshi Hub" .. PlaceName,
+        LoadingTitle = "Hoshi Hub" .. PlaceName,
         LoadingSubtitle = "by Bruh_998",
         Theme = "Default",
         DisableRayfieldPrompts = true,
         DisableBuildWarnings = true,
         ConfigurationSaving = {
             Enabled = true,
-            FileName = "HoshiHub " .. PlaceName
+            FileName = "HoshiHub" .. PlaceName
         },
         Discord = {
             Enabled = false,
